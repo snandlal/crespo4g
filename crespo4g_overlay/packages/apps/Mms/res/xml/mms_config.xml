@@ -29,10 +29,10 @@
     <int name="maxMessageSize">307200</int>
 
     <!-- Maximum height for an attached image -->
-    <int name="maxImageHeight">480</int>
+    <int name="maxImageHeight">960</int>
 
     <!-- Maximum width for an attached image -->
-    <int name="maxImageWidth">640</int>
+    <int name="maxImageWidth">1280</int>
 
     <!-- Maximum number of SMS message to save per thread before auto-delete kicks in.
          This is the default value. -->
@@ -51,7 +51,7 @@
     <int name="maxMessageCountPerThread">5000</int>
 
     <!-- UAProf URL -->
-    <string name="uaProfUrl">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
+    <string name="uaProfUrl">http://device.sprintpcs.com/Samsung/SPH-D720/latest</string>
 
     <!-- Maximum number of recipients allowed per message. Use a value of -1
          to indicate no limit. -->
@@ -66,10 +66,14 @@
          via multi media message. -->
     <bool name="enableMultipartSMS">true</bool>
 
+    <!-- If true, the text message will be split every 160 characters.
+If false, the text will never be split before being sent. -->
+    <bool name="enableSplitSMS">true</bool>
+
     <!-- If true, The mms support slide duration.
          If false, The mms does not support slide duration and we have to
          set duration value. -->
-    <bool name="enableSlideDuration">true</bool>
+    <bool name="enableSlideDuration">false</bool>
 
     <!-- Maximum length for message text. Use a value of -1
          to indicate default value -->
@@ -82,10 +86,7 @@
     -->
 
     <!-- UAProf parameter tag name -->
-    <!-- this is default to "x-wap-profile". Override if necessary. Optional -->
-    <!--
-    <string name="uaProfTagName">x-wap-profile</string>
-    -->
+    <string name="userAgent">SPH-D720/Android-mms</string>
 
     <!-- Reference for additional http parameters used in MMS http request.
          Parameters are seperated by '|'. Optional.
