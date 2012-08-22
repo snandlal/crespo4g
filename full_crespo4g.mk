@@ -41,3 +41,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full.mk)
 PRODUCT_NAME := full_crespo4g
 PRODUCT_DEVICE := crespo4g
 PRODUCT_MODEL := Full Android on Crespo4G
+
+# default properties
+ADDITIONAL_DEFAULT_PROPERTIES += \
+	ro.secure=0
