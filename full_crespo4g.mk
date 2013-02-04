@@ -26,8 +26,8 @@ PRODUCT_PACKAGES += \
         VisualizationWallpapers \
         librs_jni
 
-# Extra Quality
-PRODUCT_PACKAGES +=:
+# Extras
+PRODUCT_PACKAGES += \
         samsung
 
 # Inherit from those products. Most specific first.
