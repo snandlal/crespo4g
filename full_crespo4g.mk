@@ -27,7 +27,7 @@ PRODUCT_PACKAGES += \
         librs_jni
 
 # Extras
-PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += :
         samsung
 
 # Inherit from those products. Most specific first.
