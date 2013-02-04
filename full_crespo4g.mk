@@ -24,10 +24,7 @@ PRODUCT_PACKAGES += \
         LiveWallpapers \
         LiveWallpapersPicker \
         VisualizationWallpapers \
-        librs_jni
-
-# Extras
-PRODUCT_PACKAGES += :
+        librs_jni \
         samsung
 
 # Inherit from those products. Most specific first.
