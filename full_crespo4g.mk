@@ -27,7 +27,7 @@ PRODUCT_PACKAGES += \
         librs_jni
 
 # Extra Quality
-PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES +=:
         samsung
 
 # Inherit from those products. Most specific first.
