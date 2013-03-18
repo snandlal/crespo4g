@@ -19,13 +19,6 @@
 # product configuration (apps).
 #
 
-# Live Wallpapers
-PRODUCT_PACKAGES += \
-        LiveWallpapers \
-        LiveWallpapersPicker \
-        VisualizationWallpapers \
-        librs_jni
-
 # Busybox
 PRODUCT_PACKAGES +=\
         busybox
