@@ -19,9 +19,10 @@
 # product configuration (apps).
 #
 
-# Busybox
+# Extras
 PRODUCT_PACKAGES +=\
-        busybox
+        busybox \
+	Github
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
